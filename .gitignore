@@ -1,0 +1,80 @@
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# Python cache and test files
+# ==============================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Node.js and React
+# ==============================
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# IDE settings
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Local databases and uploaded files
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+# ==============================
+# Private VoiceReady AI session data
+# ==============================
+backend/app/chat_sessions.json
+backend/app/sessions.json
+
+# ==============================
+# Generated reports and local data
+# ==============================
+reports/
+data/
+# Duplicate React starter projects
+/my-react-app/
+/frontend/my-react-app/
+
+# Private interview session data
+backend/app/chat_sessions.json
+backend/app/sessions.json
